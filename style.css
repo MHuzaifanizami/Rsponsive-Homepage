@@ -1,30 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #000000;
     color: #ffff;
 
 }
 
-html{
+html {
     font-size: 62.5%;
+
+}
+body{
+    background-color: #000000;
 }
 
 /* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Navbar start ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
-#logo-img{
+#logo-img {
     width: 42%;
 }
-.logo{
+
+.logo {
     width: 30%;
     margin-left: 30px;
 }
-.head{
+
+.head {
     background-color: #000000;
-   
-  
+    height: 10rem;
+
+
 }
-.nav-link a{
+
+.nav-link a {
     text-decoration: none;
     list-style: none;
     color: #ffff;
@@ -32,65 +39,76 @@ html{
     margin: 0px 25px;
 
 }
+
 .btn {
     margin-right: 30px;
 }
-.btn button{
+
+.btn button {
     font-size: 1.5rem;
     border-radius: 65px;
     border: none;
     margin: 0px 8px;
 }
-.red-btn{
+
+.red-btn {
     background-color: #ed1c24;
 }
 
-.red-arrow{
+.red-arrow {
     background-color: #ffff;
     padding: 5px;
     border-radius: 12px;
     color: #ed1c24
 }
-.list i{
+
+.list i {
     color: #ffff;
     font-size: 2.5rem;
     display: none;
-  
-    
-}
 
-@media(max-width:1220px){
-
-.list i{
-    display: block;
-    margin-right: 26px;
-    color: #ffff;
-    background-color: #ed1c24;
-    padding: 12px;
-    border-radius: 5px;
-}
-.red-btn,.black-btn{
-    display: none;
-}
 
 }
-@media(max-width:850px){
 
-.list i{
-    display: block;
-    margin-right: 26px;
-    color: #ffff;
-    background-color: #ed1c24;
-    padding: 9px;
-    border-radius: 5px;
-    font-size: 20px;
+@media(max-width:1220px) {
+
+    .list i {
+        display: block;
+        margin-right: 26px;
+        color: #ffff;
+        background-color: #ed1c24;
+        padding: 12px;
+        border-radius: 5px;
+    }
+
+    .red-btn,
+    .black-btn {
+        display: none;
+    }
+
 }
-.red-btn,.black-btn,.links{
-    display: none;
-}
-#logo-img{
-    margin-left: 50px;
-}
+
+@media(max-width:850px) {
+
+    .list i {
+        display: block;
+        margin-right: 26px;
+        color: #ffff;
+        background-color: #ed1c24;
+        padding: 9px;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+
+    .red-btn,
+    .black-btn,
+    .links {
+        display: none;
+    }
+
+    #logo-img {
+        margin-left: 50px;
+    }
 
 }
 
@@ -98,12 +116,14 @@ html{
 
 /* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Box Area Start ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
 
-.parag{
+.parag {
     font-size: 1.6rem;
+    color: rgba(255, 255, 255, 0.7);
 }
-.title{
+
+.title {
     font-size: 4rem;
-   
+
 }
 
 .box-btn {
@@ -128,6 +148,7 @@ html{
 
     padding: 0 12px;
 }
+
 .brand img {
     display: block;
     height: 140px;
@@ -137,17 +158,104 @@ html{
     border-radius: px;
 }
 
-.box-container{
-    height: 100vh;
+.box-container {
+    height: 80%;
+    background-color: #000000;
 }
 
-
-
-
-
-
-
-
-
+.container-fluid {
+    padding-top: 5rem;
+}
 
 /* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Box Area end ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Frenchise Area start ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+.frenchise-container {
+    min-width: 100%;
+    max-height: 350vh;
+    background-color: #0f0f0f;
+    margin-bottom: 1.5rem;
+}
+
+.frenchise-box{
+    margin-bottom: 6rem;
+}
+
+.frenchise-btn {
+    background-color: transparent;
+    display: block;
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-style: normal;
+    text-align: center;
+    font-size: 14px;
+    line-height: 50px;
+    color: #FFFFFF;
+    /* margin: auto; */
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+small {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+    border: none;
+}
+
+.text-area h2 {
+    font-size: 4rem;
+}
+/* .para-grey{
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.7);
+} */
+
+.image-area img{
+ width: 100%;
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Frenchise Area end ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,Frenchise Express Area Start ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+.frenchise-express-container{
+    background-color: #000000;
+}
+
+.express-container{
+    width: 100%;
+}
+.box-1{
+    width: 33%;
+}
+.box-1 img{
+    width: 65%;
+}
+
+.express-btn{
+    background-color: transparent;
+    display: block;
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-style: normal;
+    text-align: center;
+    font-size: 14px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin: auto;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,Frenchise Express Area End ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
