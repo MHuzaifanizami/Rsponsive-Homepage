@@ -1,0 +1,197 @@
+/* Flex box utilities start */
+.gap{
+    gap: 10px;
+}
+.d-flex {
+    display: flex;
+}
+
+/* Flex direction */
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-column-reverse {
+    flex-direction: column-reverse;
+}
+
+/* Flex Justify content  */
+.justify-content-start {
+    justify-content: start;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-sp-between {
+    justify-content: space-between;
+}
+
+.justify-content-sp-around {
+    justify-content: space-around;
+}
+
+.justify-content-sp-evenly {
+    justify-content: space-evenly;
+}
+
+/* Flex Align items  */
+.align-items-start {
+    align-items: start;
+}
+
+.align-items-end {
+    align-items: end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-baseline {
+    align-items: baseline;
+}
+
+.align-items-stretch {
+    align-items: stretch;
+}
+
+/* Flex grow */
+.fg--0 {
+    flex-grow: 0;
+}
+
+/* Default */
+.fg--1 {
+    flex-grow: 1;
+}
+
+/* Flex shrink */
+.fs--0 {
+    flex-shrink: 0;
+}
+
+.fs--1 {
+    flex-shrink: 1;
+}
+
+/* flex-wrap */
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+/* order */
+.order-0 {
+    order: 0;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
+
+.order-4 {
+    order: 4;
+}
+
+.order-5 {
+    order: 5;
+}
+
+/* Align content */
+
+.align-content-start {
+    align-content: start;
+}
+
+.align-content-end {
+    align-content: end;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.align-content-between {
+    align-content: space-between;
+}
+
+.align-content-around {
+    align-content: space-around;
+}
+
+.align-content-stretch {
+    align-content: stretch;
+}
+
+/* object fit */
+
+.object-fit-contain {
+    object-fit: contain;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.object-fit-fill {
+    object-fit: fill;
+}
+
+.object-fit-none {
+    object-fit: none;
+}
+
+/* Position values  */
+
+.position-abso {
+    position: absolute;
+}
+
+.position-fix {
+    position: fixed;
+}
+
+.position-rela {
+    position: relative;
+}
+
+.position-static {
+    position: static;
+}
+
+.position-sticky {
+    position: sticky;
+}
+
+.text-color{
+    color: #404553;
+}

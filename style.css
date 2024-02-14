@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #ffff;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Navbar start ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+#logo-img{
+    width: 42%;
+}
+.logo{
+    width: 30%;
+    margin-left: 30px;
+}
+.head{
+    background-color: #000000;
+   
+  
+}
+.nav-link a{
+    text-decoration: none;
+    list-style: none;
+    color: #ffff;
+    font-size: 1.8rem;
+    margin: 0px 25px;
+
+}
+.btn {
+    margin-right: 30px;
+}
+.btn button{
+    font-size: 1.5rem;
+    border-radius: 65px;
+    border: none;
+    margin: 0px 8px;
+}
+.red-btn{
+    background-color: #ed1c24;
+}
+
+.red-arrow{
+    background-color: #ffff;
+    padding: 5px;
+    border-radius: 12px;
+    color: #ed1c24
+}
+.list i{
+    color: #ffff;
+    font-size: 2.5rem;
+    display: none;
+  
+    
+}
+
+@media(max-width:1220px){
+
+.list i{
+    display: block;
+    margin-right: 26px;
+    color: #ffff;
+    background-color: #ed1c24;
+    padding: 12px;
+    border-radius: 5px;
+}
+.red-btn,.black-btn{
+    display: none;
+}
+
+}
+@media(max-width:850px){
+
+.list i{
+    display: block;
+    margin-right: 26px;
+    color: #ffff;
+    background-color: #ed1c24;
+    padding: 9px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.red-btn,.black-btn,.links{
+    display: none;
+}
+#logo-img{
+    margin-left: 50px;
+}
+
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Navbar end ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Box Area Start ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+.parag{
+    font-size: 1.6rem;
+}
+.title{
+    font-size: 4rem;
+   
+}
+
+.box-btn {
+    background-color: transparent;
+    display: block;
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-style: normal;
+    text-align: center;
+    font-size: 14px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin: auto;
+    margin-top: 24px;
+    cursor: pointer;
+
+}
+
+.brand {
+
+    padding: 0 12px;
+}
+.brand img {
+    display: block;
+    height: 140px;
+    width: 250px;
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: px;
+}
+
+.box-container{
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Box Area end ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
