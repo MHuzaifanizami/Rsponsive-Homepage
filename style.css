@@ -10,7 +10,8 @@ html {
     font-size: 62.5%;
 
 }
-body{
+
+body {
     background-color: #000000;
 }
 
@@ -178,7 +179,7 @@ body{
     margin-bottom: 1.5rem;
 }
 
-.frenchise-box{
+.frenchise-box {
     margin-bottom: 6rem;
 }
 
@@ -213,13 +214,14 @@ small {
 .text-area h2 {
     font-size: 4rem;
 }
+
 /* .para-grey{
     font-size: 1.5rem;
     color: rgba(255, 255, 255, 0.7);
 } */
 
-.image-area img{
- width: 100%;
+.image-area img {
+    width: 100%;
 }
 
 /* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,Frenchise Area end ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
@@ -227,23 +229,19 @@ small {
 
 /* ,,,,,,,,,,,,,,,,,,,,,,,Frenchise Express Area Start ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
 
-.frenchise-express-container{
+.frenchise-express-container {
     background-color: #000000;
+
 }
 
-.express-container{
-    width: 100%;
-}
-.box-1{
-    width: 33%;
-}
-.box-1 img{
-    width: 65%;
+.box-1 img {
+
+    width: 350px;
+    padding: 5px;
 }
 
-.express-btn{
+.express-btn {
     background-color: transparent;
-    display: block;
     width: 174px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -253,9 +251,177 @@ small {
     font-size: 14px;
     line-height: 50px;
     color: #FFFFFF;
-    margin: auto;
-    margin-top: 30px;
+    margin-top: 15px;
     cursor: pointer;
 }
 
+.box-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 10px;
+}
+
 /* ,,,,,,,,,,,,,,,,,,,,,,,Frenchise Express Area End ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,Village Express Area Start ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+.village-image img {
+    width: 90%;
+}
+
+.village-frenchise-container {
+    background-color: #0f0f0f;
+    height: 100%;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,Village Express Area end ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,Card Area Start ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.card-container {
+    margin: 0px 45px;
+}
+
+
+.card-box {
+    background-color: #fff;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    color: #000000;
+    border-radius: 8px;
+}
+
+.card-box img {
+    display: block;
+    margin: auto;
+    margin-top: 18px;
+}
+
+.card-box span,
+p {
+    color: #000000;
+}
+
+.card-box h4 {
+    font-size: 2rem;
+}
+
+.card-para {
+    font-size: 1.8rem;
+
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,Card Area End ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,socaial Area start ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.social-container {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.social-box img {
+    /* height: 100%; */
+    width: 100%;
+}
+
+.social-box {
+    margin: 5px;
+    padding: 10px;
+    width: 19%;
+}
+
+.social-flex{
+    width: 100%;
+}
+
+
+
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,socaial Area End ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,footer Area start ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.footer-container{
+
+  
+    background-color: #0f0f0f;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 10rem;
+}
+
+
+.footer-logo img{
+    width: 40%;
+}
+
+.footer-container h5{
+    font-size: 2rem;
+    
+
+}
+.contact,.site-link,.follow{
+    line-height: 32px;
+    
+   
+}
+
+.follow-image{
+    height: 50%;
+
+}
+.footer-flex{
+    padding-top: 20px;
+    margin-top: 15px;
+}
+
+.footer-icon{
+    font-size: 2.5rem;
+    letter-spacing: 2rem;
+    margin: 12px 0px;
+}
+.footer-icon{
+    border-radius: 20px;
+    padding: 6px 6px;
+    background-color: #ED1C24;
+    width: 36px;
+    text-align: center;
+    margin: 3px 3px;
+}
+
+.footer-2{
+    font-size: 1.5rem;
+    /* margin-top: 2rem; */
+   background-color: #0f0f0f;
+    padding-top: 1rem;
+    padding: 10px 18px;
+    
+}
+
+.footer-border {
+    color: rgba(255, 255, 255, 0.6);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    width: 100%;
+}
+
+.media-icon{
+    display: none;
+}
+
+@media(max-width:560px) {
+    .media-icon{
+        display: block;
+    }
+    .media-p{
+        display: none;
+    }
+}
+/* ,,,,,,,,,,,,,,,,,,,,,,,footer Area End ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
